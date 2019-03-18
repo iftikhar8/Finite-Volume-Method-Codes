@@ -20,7 +20,7 @@ v = VideoWriter('CD.avi');   %Change video file name if you want.
 FrameRate=10; 
 open(v);
 
-
+%Time loop:
 for t=1:Nt
 	%Operators:
 	convection
